@@ -1,3 +1,8 @@
+body{
+  background: linear gradient hsl(182, 83%, 19%),
+  url("images/logo.jpeg");
+  background-size: cover;
+}
 h1{
   font-family: 'Rubik Mono One', sans-serif;
   font-size: 50rem;
@@ -10,8 +15,6 @@ h1{
   top: 0;
 }
 
-img {
-  width: 100%;
-  height: auto;
-  opacity: 0.3;
+.col-lg-6{
+  background-size: cover;
 }

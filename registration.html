@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Resume.page</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="reg.css">
+    </head>
+    <body>
+    <div id="error"><script language="javascript">';
+echo 'alert $error';
+ echo '</script></div>
+        <form action="/drdo project/Registration.php" class="base" method="post">
+            <fieldset class="field">
+                <h1>Register</h1>
+                Name<br>  <input class="bar" type="text" name="name" placeholder="FirstName LastName"><br><br>
+                Password<br> <input class="add" type="password" min="5" name="password" placeholder="**********"><br><br>
+                Confirm Password<br> <input class="add" type="password" min="5" name="password1" placeholder="**********"><br><br>
+                Town/locality<br> <input class="add" type="text" name="town" placeholder="Address line"><br><br>
+                Phone Number<br>  <input class="num" name="phone" min="12" max="60" placeholder="+91"><br><br>
+                DOB <br> <input class="num1" type="date" name="dob">
+                <br><br>
+                Email<br>  <input class="add" type="text" name="email" placeholder="yourid@example.com"><br><br>
+                Aadhar Number<br>  <input class="num" name="phone" min="12" max="60"><br><br>
+                Account Number<br>  <input class="num" name="phone" min="12" max="60"><br><br>
+                IFSC Code<br>  <input class="num" name="phone" min="12" max="60"><br><br>
+                Card Number<br>  <input class="num" name="phone" min="12" max="60"><br><br>
+                <!--Interests<br><br>
+                <textarea class="comment" name="comment1" placeholder="Some of your most loved interests..."></textarea>
+                <br><br>
+                Key Skills<br> <input class="key" type="text" placeholder="keyskills, specializations, expertise" name="skills">
+                <br><br>-->
+ 
+
+                <button class="icl-Button icl-Button--primary icl-Button--lg" type="submit" name="submit">Submit</button>
+            </fieldset>
+</form>
+    </body>
+</html>

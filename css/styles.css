@@ -1,0 +1,17 @@
+h1{
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 50rem;
+  line-height: 1.5;
+}
+
+.container {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
